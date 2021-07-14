@@ -12,16 +12,11 @@
     width: 100%;
     height: 100vh;
     background-color: #2D25A0;
-/* align-items: center; */
 justify-content: center;
 }
 .front .title{
-
-    /* height: 512px;
-    width: 350px; */
     margin-left: 156px;
     margin-top: 207px;
-    /* margin-right: 102px; */
     margin-bottom: 169px;
     color: #ffffff;
 }
@@ -72,13 +67,11 @@ justify-content: center;
 }
     .front .title{
         width: 90%;
-    /* flex-basis: 100%; */
     margin: 4%;
     height: 90%;
    }
    .front .banner{
        width: 95%;
-    /* flex-basis: 100%; */
     height:90% ;
 
   margin: 4%;
@@ -156,7 +149,6 @@ margin:10px 10px 10px 10px;
     .players{
    
     grid-template-columns: repeat(1, 1fr);
- 
     margin-left: 5%;
     margin-right: 5%;
     grid-row-gap: 27px;
@@ -178,7 +170,10 @@ margin:10px 10px 10px 10px;
     }
 }
 
-/* ---------News------------ */
+/* -------------------News Section------------------- */
+
+
+
 .title-text{
     text-align: center;
     padding-bottom: 70px;
@@ -259,7 +254,7 @@ opacity: 1;
 
 
 
-/* ----------News page responsive for mobile------- */
+/* ---------- responsive News Section for mobile------- */
 
 
 
@@ -280,7 +275,7 @@ opacity: 1;
 }
 }
 
-/* ---------Supporter Reaction----------- */
+/* ---------Supporter Reaction Section----------- */
 
 
 #testimonial{
@@ -329,6 +324,11 @@ opacity: 1;
 transform: scale(1.2);
 transition: transform 2s;
     }
+
+    /* ---------------Responsive Supporter Reaction for mobile----------------- */
+
+
+
     @media screen and (max-width:770px){
         .testimonial-col{
             flex-basis: 100%;
@@ -341,9 +341,6 @@ transition: transform 2s;
 
 .logo {
     display: flex;
-    /* width: 484px;
-height: 213px; */
-/* margin: 0 auto; */
 margin-bottom: 63px;
 margin-top: 158px;
 align-items: center;
@@ -358,8 +355,6 @@ footer .icon .fab{
     background-color: lightsteelblue;
     border-radius: 50%;
     padding: 10px;
-    /* height: 5px;
-    width: 5px; */
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 15px;
