@@ -64,9 +64,29 @@ justify-content: center;
 
 /* ------Responsive first page for mobile--------- */
 
+@media screen and (max-width:770px){
+.front{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    .front .title{
+    flex-basis: 100%;
+    margin: 4%;
+   }
+   .front .banner{
+    flex-basis: 100%;
+    height:90% ;
+    width: 90%;
+  margin: 4%;
+   }
+}
 
 
 /* -------players sections-------- */
+
+
+
 .players-container{
     background-color: #f0fff0;
     padding-top: 70px;
@@ -108,6 +128,21 @@ margin:10px 10px 10px 10px;
 .players .player .info p{
     font-size: 13px;
     color: rgb(129, 139, 150);
+}
+
+
+
+/* ---------responsive players section for mobile-------- */
+
+
+
+@media screen and (max-width:770px){
+    .players{
+        grid-template-columns: repeat(1,1fr);
+        grid-column-gap: 0px;
+        margin-left: 50px;
+margin-right: 50px;
+    }
 }
 
 /* ---------News------------ */
@@ -211,6 +246,8 @@ opacity: 1;
     bottom:20% !important;
 }
 }
+
+
 /* ----------------------footer----------------------- */
 
 .logo {
@@ -237,4 +274,25 @@ footer .icon .fab{
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 15px;
+}
+
+
+/* ------ Responsive footer for mobile-------------*/
+
+
+
+@media screen and (max-width:770px){
+    .logo {
+        
+    margin-right: 5%;  
+    margin-left: 5%;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    width: 90%;
+    
+    }
+    .logo .img img{
+        width:90%;
+        
+    }
 }
