@@ -27,14 +27,17 @@ justify-content: center;
 }
 .front .title h1{
     font-size: 50px;
-    line-height: 80px;
+    line-height: 70px;
 }
-.front .title a{
+.front .title .button{
+    margin-top: 27px;
+}
+.front .title .button a{
     background-color: #E02C6D;
     padding: 10px 24px;
     color: #ffffff;
     text-decoration: none;
-    margin-top: 27px;
+    
 }
 .front .banner{
     height: 438px;
@@ -42,12 +45,23 @@ justify-content: center;
     margin-right:140px;
     margin-top: 153px;
     margin-left:102px;
-    margin-bottom: 186px;
+    margin-bottom: 86px;
 }
+
 .front .banner img{
     height: 100%;
     width: 100%;
 }
+.front:hover img{
+    transform: scale(1.2);
+    transition: transform 2s;
+}
+.front:hover .title{
+    transform: scale(1.2);
+    transition: transform 2s;
+}
+
+
 
 /* -------players sections-------- */
 .players-container{
@@ -72,9 +86,10 @@ grid-column-gap: 30px;
     width: 330px;
     height: 474px;
     background-color: white;
-    /* padding: 5%; */
+   
     flex-direction: column;
-    box-shadow: 0 0 20px 6px;
+    box-shadow: 0 0 15px -6px;
+  
    
 }
 .players .player img{
@@ -83,6 +98,13 @@ height:60%;
 margin: 0 auto;
 margin:10px 10px 10px 10px;
 
+}
+.players .player .title{
+    margin:0px 10px 10px 10px;
+}
+.players .player .title p{
+    font-size: 13px;
+    color: rgb(129, 139, 150);
 }
 
 
